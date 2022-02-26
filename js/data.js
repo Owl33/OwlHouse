@@ -6,7 +6,7 @@ const portfolio = [
         contribute: "디자인 100% + 퍼블리싱 100%",
         skills: "HTML, CSS, Vanila JS",
         viewurl: "https://owl33.github.io/Untitle-Shopping-Mall/index.html",
-        giturl: "https://github.com/Owl33/Owl33.github.io/tree/main/Untitle-Shopping-Mall",
+        giturl: "https://github.com/Owl33/Untitle-Shopping-Mall",
     },
 
     {
@@ -43,7 +43,7 @@ const portfolio = [
         detail: "HTML과 CSS를 배우고 처음 제작 했었던 홈페이지 입니다. HTML과 CSS를 기반으로 Modal만 JS로 제작 되었습니다. CSS MEDIA QUERY를 사용하여 반응형으로 제작하였습니다.",
         contribute: "디자인 100% + 퍼블리싱 100%",
         skills: "HTML, CSS",
-        viewurl: "https://owl33.github.io/Reponsive-Web/index.html",
+        viewurl: "https://owl33.github.io/Responsive-Web/index.html",
         giturl: "https://github.com/Owl33/Responsive-Web",
     },
 ];
