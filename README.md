@@ -1,9 +1,9 @@
-<h1 align="center">Welcome to Owlhouse :)</h1>
-
-## Introduce
+<h1 align="center">Welcome to Owlhouse :)</h1><br>
 
 방문해주셔서 감사합니다!<br><br>
 OwlHouse는 제가 공부하며 만든 작업을 모아놓는 포트폴리오 사이트 입니다.<br><br>
+
+## Introduce<br>
 
 >CSS전처리기인 Sass로 제작 했습니다.<br>
 >크게 4개의 섹션을 정하였고, 각 섹션의 높이값을 구한 뒤 scrollTo() 메소드로 스크롤 한번으로 부드럽게 넘어가게 제작했습니다.<br>
