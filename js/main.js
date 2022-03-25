@@ -1,6 +1,5 @@
 let sectionCurrent = 0;
 let currentHeight = 0;
-// let Scrollcurrent = 0;
 const SectionsHeight = [];
 const slide_div = document.querySelector(".slide-pj-div");
 const slideElem = document.querySelectorAll(".slide-pj-div .slide-pj");
@@ -19,7 +18,6 @@ let imgWidthidx = [];
 let dotidx = 0;
 let DotBtn = null;
 let modalDom = null;
-// let DotActive =null;
 function dotEvent() {
     const slideDotBox = document.querySelector(".dot-circle");
     for (let i = 0; i < slideElem.length; i++) {
@@ -41,9 +39,6 @@ function dotEvent() {
             slide_div.style.transform =
                 "translateX(-" + slideimg_Width * (imgIdx + 1) + "px)";
             slideElem[imgIdx].classList.add("onslide");
-
-            // console.log(imgIdx);
-
         });
     });
 }
@@ -249,16 +244,10 @@ function scrollEvent() {
             header.classList.remove("headerani");
 
             introani.classList.remove("introani");
-            // videoani.classList.remove("videoani");
         }
         if (currentHeight == 1) {
             aboutani.classList.add("moveabout");
-            // aboutmeani.style.transition = "1.5s";
-            // setTimeout(function () {
-            // aboutmeani.style.opacity ='1';
-            // aboutmeani.style.transform = "translateX(0vw)";
             aboutmeani.classList.add("moveaboutme");
-            // }, 200);
         } else {
             aboutani.classList.remove("moveabout");
             aboutmeani.classList.remove("moveaboutme");
@@ -282,27 +271,6 @@ function scrollEvent() {
         }
         saveCurrent();
     });
-
-    // const test = document.querySelector("body");
-    // test.addEventListener("keydown", function (event) {
-    //     console.log(event.keyCode);
-    //     // event.preventDefault();
-    //     if(event.keyCode == 40 || event.keyCode == 34){
-    //         if (currentHeight < 3) {
-    //             currentHeight++;
-    //         }
-    //     }else if (event.keyCode == 38 || event.keyCode == 33){
-    //         if(currentHeight > 0){
-    //             currentHeight --;
-
-    //         }
-    //     }
-    //     if(event.keyCode == 40 || event.keyCode == 34){
-
-    //         window.scrollTo(0, SectionsHeight[currentHeight]);
-    //     }
-    //     console.log(currentHeight);
-    // });
 
     window.addEventListener(
         "wheel",
