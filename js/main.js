@@ -203,18 +203,15 @@ function scrollEvent() {
     const header = document.querySelector("header");
     const main = document.querySelector("main");
     let SectionsTotalHeight = 0;
-    // let heightRatio = 0;
     window.addEventListener("scroll", function () {
         const introani = document.querySelector("#intro");
         const aboutani = document.querySelector("#about .about");
         const aboutmeani = document.querySelector("#about .aboutme");
         const contactani = document.querySelector("#contact .contactme");
-        // aboutmeani.style.transform = "translateX(100vw)";
 
         const projectani = document.querySelector(".slide-pj-article");
         const backgroundSection = document.querySelectorAll(".backsection");
 
-        // event.preventDefault();
 
         for (let i = 0; i < Sections.length; i++) {
             SectionsTotalHeight += Sections[i].clientHeight;

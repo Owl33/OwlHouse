@@ -1,5 +1,12 @@
 const portfolio = [
     {
+        imgsrc: "./image/Youtube-React.gif",
+        title : "React Youtube Clone Coading",
+        detail: "React를 사용하여 제작되었습니다. 유튜브API를 이용하였고, React-Intersection-Observer를 사용하여 요소의 하단을 감지하여 스크롤시 데이터를 받아와서 보여주도록 하였습니다.",
+        contribute : "퍼블리싱 100%",
+        viewurl: "https://owl33.github.io/Youtube-React/",
+    },
+    {
         imgsrc: "./image/untitle.gif",
         title: "Untitle Shopping Mall",
         detail: "Vanila JS를 기반으로 제작한 쇼핑몰 입니다. 평소 다크 모드를 사용하고, 어두운 색을 선호해서 어두운 색으로 컨셉을 잡았습니다. 또한, Media Query를 통해 반응형으로 제작되었으며, 다음에 Firebase를 기반으로 DB를 구축하여 리뉴얼 계획을 가지고 있습니다.",
