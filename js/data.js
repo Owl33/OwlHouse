@@ -5,6 +5,8 @@ const portfolio = [
         detail: "React를 사용하여 제작되었습니다. 유튜브API를 이용하였고, React-Intersection-Observer를 사용하여 요소의 하단을 감지하여 스크롤이 요소의 하단에 도달할 시 NextPageToken을 받아와서 해당하는 데이터를 받아와서 보여주도록 하였습니다.",
         contribute : "퍼블리싱 100%",
         viewurl: "https://owl33.github.io/Youtube-React/",
+        giturl: "https://github.com/Owl33/Youtube-React",
+
     },
     {
         imgsrc: "./image/untitle.gif",
