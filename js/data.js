@@ -1,9 +1,20 @@
 const portfolio = [
+
+    {
+        imgsrc: "./image/EldenringWiki.gif",
+        title : "Eldenring Wiki",
+        detail: "React를 이용해서 제작했습니다. 개인이 OpenSouce로 만든 Api를 사용하였고, 리액트 라우터를 사용하여 제작하였습니다. Netlify를 사용하여 배포하였습니다.",
+        continue: "디자인 100% + 퍼블리싱 100%",
+        skills:"React, Axios, PostCSS, ReactRouter",
+        viewurl : "https://eldenring-wiki.netlify.app/",
+        giturl: "https://github.com/Owl33/Eldenring-Wiki"
+    },
     {
         imgsrc: "./image/Youtube-React.gif",
         title : "React Youtube Clone Coading",
         detail: "React를 사용하여 제작되었습니다. 유튜브API를 이용하였고, React-Intersection-Observer를 사용하여 요소의 하단을 감지하여 스크롤이 요소의 하단에 도달할 시 NextPageToken을 받아와서 해당하는 데이터를 받아와서 보여주도록 하였습니다.",
         contribute : "퍼블리싱 100%",
+        skills:"React, Axios, PostCSS",
         viewurl: "https://owl33.github.io/Youtube-React/",
         giturl: "https://github.com/Owl33/Youtube-React",
 
