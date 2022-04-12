@@ -4,7 +4,7 @@ const portfolio = [
         imgsrc: "./image/EldenringWiki.gif",
         title : "Eldenring Wiki",
         detail: "React를 이용해서 제작했습니다. 개인이 OpenSource로 만든 Api를 사용하였고, 리액트 라우터를 사용하여 제작하였습니다. Netlify를 사용하여 배포하였습니다.",
-        continue: "디자인 100% + 퍼블리싱 100%",
+        contribute: "디자인 100% + 퍼블리싱 100%",
         skills:"React, Axios, PostCSS, ReactRouter",
         viewurl : "https://eldenring-wiki.netlify.app/",
         giturl: "https://github.com/Owl33/Eldenring-Wiki"
